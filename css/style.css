@@ -1,18 +1,27 @@
 body {
   background-color: rgba(0, 0, 0, 0.5); }
 
+#svg {
+  display: block;
+  margin: auto; }
+
 .nameLabel:hover {
   cursor: pointer;
   cursor: hand; }
 
+.axis text {
+  font-size: 1.2em; }
+
 .hidden {
   display: none; }
+
+#scatterplot {
+  position: relative; }
 
 #infoBox {
   position: absolute;
   color: black;
   width: 250px;
-  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 5px;
   text-align: center; }
